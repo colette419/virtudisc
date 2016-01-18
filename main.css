@@ -1,0 +1,23 @@
+#navbar li{
+	float: left;
+	list-style-type: none;
+	padding: 30px;
+}
+#navbar ul{
+	float: right;
+}
+
+#images{
+	clear: both;
+}
+
+#images li{
+	list-style-type: none;
+}
+
+
+.gallery{
+	width: 750px;
+	height: 600px;
+}
+
