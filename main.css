@@ -1,8 +1,3 @@
-body{
-	margin: 0;
-	padding: 0;
-}
-
 
 a{
 	text-decoration: none;
@@ -172,59 +167,59 @@ font-family: 'Raleway', sans-serif;
 text-transform: uppercase;
 }
 
-	#appearh1 {	font-size: 250%;
-		font-weight: bold;
-		opacity: 0;
-		}
-
-	#appearh2 { font-style: bold;
-		opacity: 0;
+#appearh1 {	font-size: 250%;
+	font-weight: bold;
+	opacity: 0;
 	}
 
-	body {
-		font-family: 'Raleway', sans-serif;
-		font-weight: bold;
-		font-size: large;
-		background-image: url("img/blackandwhitemap.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 100%;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	a { color: black; } 
+#appearh2 { font-style: bold;
+	opacity: 0;
+}
 
-	img {
-		width:400px;
-		height:250px;
-	}
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: large;
+	background-image: url("img/blackandwhitemap.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	height: 100%;
+	width: 100%;*/
+	margin: 0;
+	padding: 0;
+}
 
 
-	.image {
-    float: left;
-	}
+.image img {
+	width:400px;
+	height:250px;
+}
 
 
-	.space {
-	margin: 30px;
-	float: left;
-	}
+.image {
+float: left;
+}
 
-	.centeralign {
-	text-align: center;
-	}
 
-	.parentContainer {
-    width: 1400px;
-    overflow: auto;
-	}
+.space {
+margin: 30px;
+float: left;
+}
 
-	#wrapper {
-	width : 770px ;
-	text-align : center ;
-	margin-left : auto ;
-	margin-right : auto ;
-	position : relative ;
-	padding: 200px 100px 100px 100px;
-	}
+.centeralign {
+text-align: center;
+}
+
+.parentContainer {
+width: 1400px;
+overflow: auto;
+}
+
+#wrapper {
+width : 770px ;
+text-align : center ;
+margin-left : auto ;
+margin-right : auto ;
+position : relative ;
+padding: 200px 100px 100px 100px;
+}
