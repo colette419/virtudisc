@@ -8,10 +8,10 @@ $(document).ready(function (){
 		}, 
 		function() { this.src = this.src.replace("_on", "_off"); 
 		});
-	 $("h1").animate({
+	 $("#appearh1").animate({
 	        'opacity': '1'
 	    },5000);
-	 $("h2").animate({
+	 $("#appearh2").animate({
 	        'opacity': '1'
 	    },8000);
 
