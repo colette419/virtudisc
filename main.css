@@ -3,10 +3,6 @@ body{
 	padding: 0;
 }
 
-#comp_name{
-	padding: 10px 10px 10px 20px;
-	font-family: 'Raleway', sans-serif;
-}
 
 a{
 	text-decoration: none;
@@ -14,8 +10,13 @@ a{
 }
 
 a:hover{
-	color: #000;
-	opacity: .3;
+	color: #d3d3d3;
+
+}
+
+#comp_name{
+	padding: 10px 10px 10px 20px;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -23,9 +24,10 @@ a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
+
 }
 
-#navbar li{
+.navigation{
 	float: left;
 	list-style-type: none;
 	padding: 0px 30px;
@@ -66,6 +68,7 @@ a:hover{
 	z-index: 1;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top:150px;
 	width: 960px;
 
 
@@ -87,26 +90,36 @@ a:hover{
 
 .gallery{
 	float: left;
+	display: none;
 }
 
 .gallery img{
-	margin: 80px 30px 0 30px;
+	margin: -100px 30px 0 50px;
 	width: 720px;
 	height: 600px;
-	padding: 20px;
+	padding: 0px;
+	position: relative;
+	top: 80px;
+
 }
 
 .gallery p{
-margin-left: 60px;
-margin-top: -80px;
+margin-left: 50px;
+margin-right:30px;
+margin-top: -200px;
+padding: 5px;
 color: #fff;
 font-weight: bold;
 font-family: 'Raleway', sans-serif;
 text-transform: uppercase;
-letter-spacing: 6px;
+letter-spacing: 5px;
+position: relative;
+top: 180px;
+background-color: #d3d3d3;
 }
 
 #button-wrapper{
+	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
