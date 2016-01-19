@@ -9,17 +9,23 @@
 <body>
 	<div id="navbar">
 		<ul>
-			<li>Home</li>
-			<li>New York</li>
-			<li>New Orleans</li>
-			<li>San Francisco</li>
-			<li>FAQ</li>
-			<li>Comments/Feedback</li>
+			<li class="navigation"><img src="img/menu-icon.png" id="menu-buttonbeg"></li>
+			<li class="navigation">Home</li>
+			<li class="navigation">New York</li>
+			<li class="navigation">New Orleans</li>
+			<li class="navigation">San Francisco</li>
+			<li class="navigation">FAQ</li>
+			<li class="navigation">Comments/Feedback</li>
+			<li class="navigation"><img src="img/menu-icon.png" id="menu-buttonend"></li>
 		</ul>
 		<img><!--nav icon will go here-->
 	</div>
-	<button id="a-left">&lt;</button>
-	<button id="a-right">&gt;</button>
+	<div id="button-wrapper">
+		<div id="buttons">
+			<button id="a-left">&lt;</button>
+			<button id="a-right">&gt;</button>
+		</div>
+	</div>
 	<div id="image-container">
 		<div id="img-format">
 			<img src="img/ny1.jpeg" class="gallery" alt="Explore New York City">
@@ -28,8 +34,7 @@
 			<img src="img/ny4.jpeg" class="gallery" alt="Lounge in style in this luxury penthouse">
 			<img src="img/ny5.jpeg" class="gallery" alt="Share a meal at Upstate">
 		</div>
-	<div id="caption">Photo Caption</div>
-	<div id="loading">Please wait...</div>
+<!-- 	<div id="caption">Photo Caption</div> -->
 	</div>
 	<footer>
 		&copy; 2016 Ashlee &amp; Colette. 
