@@ -1,7 +1,6 @@
 $(document).ready(function (){
 
-	var mbutton1 = $('#menu-buttonbeg');
-	var mbutton2 = $('#menu-buttoneng');
+//hide-and-seek navbar
 	var nav = $('.navigation');
 	var currentNavIndex = 0;
 
@@ -9,18 +8,18 @@ $(document).ready(function (){
 
 	$('#menu-buttonbeg').click(function(){
 		$(nav).toggle('slide');
-	} )
+	})
 
 	$('#menu-buttonend').click(function(){
 		$(nav).toggle('slide');
-	} )
+	})
 
-
+//interactive slideshow
 	var buttonr = $('#a-right');
 	var buttonl = $('#a-left')
 	var gallery = $('.gallery'); 
 	var currentPictureIndex = 0;
-	$(gallery[currentPictureIndex]).show();
+
 
 	$('#a-right').click(function () {
 		$(gallery[currentPictureIndex]).fadeOut(200, function(){

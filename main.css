@@ -1,3 +1,24 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#comp_name{
+	padding: 10px 10px 10px 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: #000;
+	opacity: .3;
+}
+
+
 #navbar{
 	margin-left: auto;
 	margin-right: auto;
@@ -7,9 +28,13 @@
 #navbar li{
 	float: left;
 	list-style-type: none;
-	padding: 10px 30px;
+	padding: 0px 30px;
 	display: none;
+	margin-top: -10px;
+	font-family: 'Raleway', sans-serif;
 }
+
+
 #navbar ul{
 	float: right;
 
@@ -17,21 +42,22 @@
 
 #menu-buttonbeg{
 	width: 40px;
-	margin: -10 10px;
 	position: absolute;
-	right: 80px;
-	top: 30px;
+	right: 150px;
+	top: 85px;
+	z-index: 2;
 }
+
 #menu-buttonend{
 	width: 40px;
-	margin: -10 10px;
 	position: absolute;
-	right: 80px;
-	top: 30px;
+	right: 150px;
+	top: 85px;
+	z-index: 1;
 }
 
 #image-container{
-	height: 600px;
+	height: 800px;
 	overflow: hidden;
 	position: absolute;
 	top: 0;
@@ -47,7 +73,7 @@
 
 #img-format{
 	width: auto;
-	height: 600px;
+	height: 800px;
 	padding: 50px 0 50px 0;
 	position: absolute;
 	z-index: 1;
@@ -59,31 +85,40 @@
 	
 }
 
-
-
 .gallery{
 	float: left;
-	margin: 30px 30px 0 30px;
-	width: 900px;
-	height: 720px;
+}
+
+.gallery img{
+	margin: 80px 30px 0 30px;
+	width: 720px;
+	height: 600px;
 	padding: 20px;
 }
 
-.gallery:hover{
-
+.gallery p{
+margin-left: 60px;
+margin-top: -80px;
+color: #fff;
+font-weight: bold;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+letter-spacing: 6px;
 }
 
 #button-wrapper{
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
+	height: 600px;
 }
 
 #buttons{
 	width: auto;
+	height: 600px;
 	position: absolute;
 	margin: auto;
-	left: 20px;
+	left: 40px;
 	right: 70px;
 
 }
@@ -92,7 +127,7 @@
 #a-left, #a-right{
 	position: absolute;
 	z-index: 2;
-	top: 290px;
+	top: 300px;
 	margin: auto;
 	width: auto;
 	border: none;
@@ -103,11 +138,11 @@
 }
 
 #a-left{
-	left: 100px;
+	left: 80px;
 }
 
 #a-right{
-	right: 100px;
+	right: 145px;
 }
 
 #a-left:hover, #a-right:hover{
@@ -119,8 +154,8 @@
 footer{
 clear: both;
 padding: 20px;
-margin-top: 650px;
-
-
+margin-top: 80px;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
 }
 
