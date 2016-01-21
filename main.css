@@ -215,11 +215,12 @@ width: 1400px;
 overflow: auto;
 }
 
-#wrapper {
-width : 770px ;
+/*#wrapper {
+width: 50 px;
 text-align : center ;
 margin-left : auto ;
 margin-right : auto ;
 position : relative ;
 padding: 200px 100px 100px 100px;
-}
+border: 5px solid red;
+}*/
