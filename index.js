@@ -8,23 +8,14 @@ $(document).ready(function (){
 		}, 
 		function() { this.src = this.src.replace("_on", "_off"); 
 		});
+
 	 $("#appearh1").animate({
 	        'opacity': '1'
 	    },5000);
 	 $("#appearh2").animate({
 	        'opacity': '1'
 	    },8000);
-
-var $img = $('img'); // finds all image tags
-
-$img.click(function resize(e) { // bind click event to all images
-  $img.css({ // resize the image
-     height: '300px',
-     width: '300px'
-  });
-});
-
-	 
+ 
 //hide-and-seek navbar
 	var nav = $('.navigation');
 	var currentNavIndex = 0;
