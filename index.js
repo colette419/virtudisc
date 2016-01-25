@@ -8,14 +8,14 @@ $(document).ready(function (){
 		}, 
 		function() { this.src = this.src.replace("_on", "_off"); 
 		});
-	 $("#appearh1").animate({
+
+	 $(".appearh1").animate({
 	        'opacity': '1'
 	    },5000);
 	 $("#appearh2").animate({
 	        'opacity': '1'
 	    },8000);
-
-	 
+ 
 //hide-and-seek navbar
 	var nav = $('.navigation');
 	var currentNavIndex = 0;
