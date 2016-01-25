@@ -38,6 +38,7 @@ a:hover{
 
 #menu-buttonbeg{
 	width: 40px;
+	height: auto;
 	position: absolute;
 	right: 150px;
 	top: 85px;
@@ -46,6 +47,7 @@ a:hover{
 
 #menu-buttonend{
 	width: 40px;
+	height: auto;
 	position: absolute;
 	right: 150px;
 	top: 85px;
